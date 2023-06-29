@@ -8,7 +8,7 @@ repository = "https://github.com/elamani-drawing/morseus"
 documentation = "https://docs.rs/morseus"
 homepage = "https://github.com/elamani-drawing/morseus"
 keywords = ["rust", "morse", "encoding", "decoding", "audio"]
-categories = ["audio-processing", "cryptography", "morse"]
+categories = ["multimedia::audio", "cryptography", "multimedia::encoding", "compression"]
 
 [dependencies]
 rodio = "0.17.1"
