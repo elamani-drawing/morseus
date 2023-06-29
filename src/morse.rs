@@ -534,7 +534,7 @@ impl Morse {
     ///
     /// fn main() {
     ///     let morse = Morse::new();
-    ///     morse.to_audio(".- / -... / -.-.", "output.wav");  // exporte le son dans le fichier output.wav
+    ///     let _ = morse.to_audio(".- / -... / -.-.", "output.wav");  // exporte le son dans le fichier output.wav
     /// }
     /// ```
     pub fn to_audio(&self, morse_code: &str, filename: &str) -> Result<(), HoundError> {

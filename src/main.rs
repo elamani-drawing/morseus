@@ -44,5 +44,5 @@ fn main() {
     // Exemple pour jouer le son du code
     morse.play_morse_code(".. -- ."); 
     // exporte le code morse en audio
-    morse.to_audio(".. -- .", "output.wav");
+    let _ = morse.to_audio(".. -- .", "output.wav");
 }
