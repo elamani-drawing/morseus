@@ -1,11 +1,11 @@
 [package]
 name = "morseus"
-version = "0.1.0"
+version = "0.1.12"
 edition = "2021"
 license = "MIT"
 description = "Une bibliothèque Rust pour encoder et décoder du texte en code Morse, jouer des signaux sonores et exporter en fichiers audio WAV."
 repository = "https://github.com/elamani-drawing/morseus"
-documentation = "https://docs.rs/morseus"
+documentation = "https://docs.rs/morseus/0.1.12/morseus/"
 homepage = "https://github.com/elamani-drawing/morseus"
 keywords = ["rust", "morse", "encoding", "decoding", "audio"]
 categories = ["multimedia::audio", "cryptography", "multimedia::encoding", "compression"]
